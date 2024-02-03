@@ -9,7 +9,7 @@ public class ColorStore {
 
     static
     {
-        colorMap.put("blue", new BlackColor());
+        colorMap.put("blue", new BlueColor());
         colorMap.put("black", new BlackColor());
     }
 
