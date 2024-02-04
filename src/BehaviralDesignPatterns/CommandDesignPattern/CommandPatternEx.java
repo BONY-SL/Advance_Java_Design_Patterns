@@ -3,7 +3,7 @@ package BehaviralDesignPatterns.CommandDesignPattern;
 public class CommandPatternEx {
 
     public static void main(String[] args) {
-        
+
         // Create devices
         TV tv = new TV();
         Stereo stereo = new Stereo();
@@ -11,6 +11,7 @@ public class CommandPatternEx {
         // Create command objects
         Command turnOnTVCommand = new TurnOnCommand(tv);
         Command turnOffTVCommand = new TurnOffCommand(tv);
+
         Command adjustVolumeStereoCommand = new AdjustVolumeCommand(stereo);
         Command changeChannelTVCommand = new ChangeChannelCommand(tv);
 
