@@ -3,6 +3,7 @@ package BehaviralDesignPatterns.CommandDesignPattern;
 public class CommandPatternEx {
 
     public static void main(String[] args) {
+        
         // Create devices
         TV tv = new TV();
         Stereo stereo = new Stereo();
