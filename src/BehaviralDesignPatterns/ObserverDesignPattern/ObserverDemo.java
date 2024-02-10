@@ -12,6 +12,6 @@ public class ObserverDemo {
         weatherStation.RegisterObserver(tvDisplay);
 
         weatherStation.setWeather("Sunny");
-        
+
     }
 }
