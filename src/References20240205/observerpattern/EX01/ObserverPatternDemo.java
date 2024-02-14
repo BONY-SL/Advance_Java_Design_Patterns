@@ -8,7 +8,7 @@ public class ObserverPatternDemo {
         new HexaObserver(sb);
         new OctalObserver(sb);
         new BinaryObserver(sb);
-        
+
         sb.setState(10);
         sb.notifyAllObservers();
 
