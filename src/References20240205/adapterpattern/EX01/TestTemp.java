@@ -27,8 +27,8 @@ public class TestTemp {
         System.out.println("temp in F:" + tempInfo.getTemperatureInF());
 
         //class and object adapter
-        tempInfo.setTemperatureInF(50);
-        System.out.println("temp in C:" + tempInfo.getTemperatureInC());
-        System.out.println("temp in F:" + tempInfo.getTemperatureInF());
+        //tempInfo.setTemperatureInF(50);
+       // System.out.println("temp in C:" + tempInfo.getTemperatureInC());
+       // System.out.println("temp in F:" + tempInfo.getTemperatureInF());
     }
 }
