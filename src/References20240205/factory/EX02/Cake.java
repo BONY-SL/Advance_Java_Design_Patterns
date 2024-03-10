@@ -37,7 +37,8 @@ public abstract class Cake {
     public void aboutCake(){
 
         System.out.println("I am "+name+" Cake");
-        System.out.print("My Fans : ");myFan();
+        System.out.print("My Fans : ");
+        myFan();
         System.out.println("You can get a "+name+" Cake at "+price);
 
     }

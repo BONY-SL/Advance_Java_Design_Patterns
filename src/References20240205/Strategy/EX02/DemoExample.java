@@ -14,8 +14,8 @@ public class DemoExample {
         System.out.println();
 
 
-        ArrayContx ar2=new ArrayContx(new BarChartRepresent());
-        ar2.readFile();
-        ar2.presentArray();
+        ar.update();
+
+        ar.presentArray();
     }
 }

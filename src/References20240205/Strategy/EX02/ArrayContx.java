@@ -41,4 +41,20 @@ public class ArrayContx {
         }
 
     }
+
+
+    public void downbreak(){
+        if(!(arrayStrategy instanceof ArrayRepresent)){
+            arrayStrategy=new ArrayRepresent();
+        }
+    }
+
+    public void update(){
+
+        System.out.println("Updating BarChart Represent.........");
+        if(!(arrayStrategy instanceof BarChartRepresent)){
+            arrayStrategy=new BarChartRepresent();
+        }
+    }
+
 }

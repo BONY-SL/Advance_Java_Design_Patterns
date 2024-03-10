@@ -30,8 +30,6 @@ public class DemoAdapter {
             System.out.println("Round peg "+pegr+" not fits round hole "+holer);
         }
 
-
-
         input=new Scanner(System.in);
         System.out.print("Enter length of Square: ");
         length=input.nextDouble();

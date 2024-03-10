@@ -4,7 +4,7 @@ public class DemoShort {
     public static void main(String[] args) {
 
 
-            ShortContex shot=new ShortContex(new BubbleShort());
+            ShortContex shot=new ShortContex(new FastShort());
             shot.shortArray();
             ShortStrategy st=ShortContex.getShortStrategy();
 
