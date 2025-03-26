@@ -6,7 +6,7 @@ public class BitcoinPayment implements PaymentStratagy{
         System.out.println("Paid " + amount + " using Bitcoin address: " + bitcoinAddress);
     }
 
-    private String bitcoinAddress;
+    private final String bitcoinAddress;
 
     public BitcoinPayment(String bitcoinAddress) {
         this.bitcoinAddress = bitcoinAddress;

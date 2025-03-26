@@ -10,7 +10,6 @@ public class SubjectNumber {
 
     public void setState(int state) {
         this.state = state;
-        notifyAllObservers();
     }
 
     public  int getState() {

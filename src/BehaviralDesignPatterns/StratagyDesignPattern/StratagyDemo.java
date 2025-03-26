@@ -2,6 +2,7 @@ package BehaviralDesignPatterns.StratagyDesignPattern;
 
 public class StratagyDemo {
     public static void main(String[] args) {
+
         Shopping cart = new Shopping();
 
         // Selecting payment methods dynamically

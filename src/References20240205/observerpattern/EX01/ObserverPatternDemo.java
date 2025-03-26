@@ -10,7 +10,11 @@ public class ObserverPatternDemo {
         new OctalObserver(sb);
         new BinaryObserver(sb);
 
+        System.out.println("10");
         sb.setState(10);
-
+        sb.notifyAllObservers();
+        System.out.println();
+        //System.out.println("50");
+        //sb.setState(50);
     }
 }

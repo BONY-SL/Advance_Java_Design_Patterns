@@ -6,7 +6,7 @@ public class CreditCartPayment implements PaymentStratagy{
         System.out.println("Paid " + amount + " using credit card number: " + creditcardnumber);
     }
 
-    private String creditcardnumber;
+    private final String creditcardnumber;
 
     public CreditCartPayment(String creditcardnumber) {
         this.creditcardnumber = creditcardnumber;

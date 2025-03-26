@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.*;
 
 public class WeatherStation implements Subject{
-    private List<Obsever> obseverList=new ArrayList<>();
+    private final List<Obsever> obseverList=new ArrayList<>();
     private String weather;
     @Override
     public void RegisterObserver(Obsever obsever) {
